@@ -1,0 +1,111 @@
+#SLOT {
+	cursor: default;
+	padding: 0;
+	font: 13px/55px Arial;
+	text-align: center;
+	overflow: visible;
+}
+
+#SLOT1, #SLOT2, #SLOT3  {
+	float: left;
+	width: 60px;
+	height: 85px;
+	overflow: hidden;
+	border: 1px solid #D4DAE6;
+	position: relative;
+	margin: 3px 7px 5px 0;
+	border: 1px solid #F0F0EC;
+}
+
+#SLOT .scroll {
+	position: absolute;
+	width: 60px;
+}
+
+#SLOT .item {
+	position: relative;
+	width: 60px;
+	height: 85px;
+	overflow: hidden;
+	color: #464646;
+}
+
+#SLOT .pic {
+	position: relative;
+	top: 12px;
+	left: 10px;
+	height: 41px;
+	width: 41px;
+}
+
+#SLOT .val {
+}
+
+#SLOT .seven {
+	background: url(slot.png) no-repeat -4px -9px;
+}
+
+#SLOT .banana {
+	background: url(slot.png) no-repeat -46px -8px;
+}
+
+#SLOT .cherry {
+	background: url(slot.png) no-repeat -93px -8px;
+}
+
+#SLOT .lemon {
+	background: url(slot.png) no-repeat -5px -52px;
+}
+
+#SLOT .blueberries {
+	background: url(slot.png) no-repeat -47px -50px;
+}
+
+#SLOT .plum {
+	background: url(slot.png) no-repeat -92px -50px;
+}
+
+#SLOT .watermelon {
+	background: url(slot.png) no-repeat -5px -92px;
+}
+
+#SLOT .orange {
+	background: url(slot.png) no-repeat -47px -92px;
+}
+
+#SLOT .strawberries {
+	background: url(slot.png) no-repeat -92px -92px;
+}
+
+#SLOT. span {
+	position: relative;
+}
+
+#RESULT div {
+	line-height: 120%;
+	overflow: visible;
+	padding: 0 0 1px 5px;
+}
+
+#NAV {
+	clear: left;
+}
+
+#record {
+}
+
+#max_discount_info {
+	cursor: help;
+	border-bottom: 1px dashed;
+}
+
+#get_discount_link {
+	margin-left: 10px;
+	cursor: pointer;
+	border-bottom: 1px dotted;
+	color:#1A3DC1;
+}
+
+.hide {
+	display: none; 
+}
